@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Beggining of Styles */
-body {
+.card-list {
   display: flex;
   padding: 32px;
   gap: 32px;
@@ -54,4 +54,19 @@ body {
   border: solid 1px black;
   border-radius: 5px;
   padding: 16px;
+}
+
+header {
+  display: flex;
+  justify-content: end;
+  padding: 32px;
+  border-bottom: 1px solid black;
+}
+
+form div {
+  padding: 16px 0;
+}
+
+form button {
+  margin: 16px;
 }
