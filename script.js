@@ -44,7 +44,7 @@ function renderLibrary() {
         bookCard.appendChild(pages);
 
         const status = document.createElement("P");
-        status.textContent = book.read ? "Read" : "Not Read";
+        status.textContent = book.read ? "Status: Read" : "Status: Not Read";
         bookCard.appendChild(status);
 
         const buttonContainer = document.createElement("div");
