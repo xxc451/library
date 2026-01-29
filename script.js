@@ -41,5 +41,6 @@ function renderLibrary() {
 }
 
 addBookToLibrary("The Catcher in the Rye", "J. D. Salinger", 234, true);
+addBookToLibrary("The Great Gatsby", "F. Scott Fitzgerald", 180, false);
 
 renderLibrary()
